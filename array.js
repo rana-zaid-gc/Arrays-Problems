@@ -36,3 +36,30 @@
     
 // }
 // console.log(items);
+
+
+// QNo3.create an array and add a number into an array from user?
+
+
+// let arr = [2,4,8,98,56,48]
+
+// let a = prompt("enter the number")
+// a = Number.parseInt(a)
+// arr.push(a)
+// console.log(arr)
+
+
+
+
+// QN04 Enter the number into an array until you add the zero?
+
+// let arr = [2,4,8,98,56,48]
+// let a
+// do{
+//     a = prompt("enter the number")
+// a = Number.parseInt(a)
+// arr.push(a)
+// }
+// while(a!=0)
+// console.log(arr)
+

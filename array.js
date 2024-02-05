@@ -63,3 +63,10 @@
 // while(a!=0)
 // console.log(arr)
 
+// QNO5. Write a js program to read and print elements of array.
+
+// let arrPrint = [1, 2, 3, 4, 'ali'];
+// for (let key in arrPrint) {
+//     console.log(key, arrPrint[key]);
+// }
+// console.log(arrPrint)

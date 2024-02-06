@@ -70,3 +70,13 @@
 //     console.log(key, arrPrint[key]);
 // }
 // console.log(arrPrint)
+
+// QNO6. Write a js program to print all negative elements in an array.
+
+// let arrNeg = [1, 2, -5, 6, -8, -3];
+// console.log(`Negative elements in array are:`);
+// for (let i = 0; i < arrNeg.length; i++) {
+//     if (arrNeg[i] < 0) {
+//         console.log(arrNeg[i]);
+//     }
+// }

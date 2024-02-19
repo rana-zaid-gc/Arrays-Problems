@@ -63,6 +63,35 @@
 // while(a!=0)
 // console.log(arr)
 
+// QN05 filter for numbers divisible by 10 from a given array ?
+
+// let arr=[10,78,89,90,320]
+
+// let n = arr.filter((x)=>{
+//     return x%10==0
+// })
+// console.log(n)
+
+// QNO6 create an array of square of given number?
+
+// let arr=[78,90,45,34]
+
+// let n= arr.map((x)=>{
+//     return x*x
+// })
+// console.log(n)
+
+// QNO6 use a reduce method to calculate the factorial of give  number from an array of first 10 natural numbers?
+
+// let arr=[1,2,3,4,5,6]
+ 
+// let n= arr.reduce((x1,x2)=>{
+//     return x1*x2
+// })
+// console.log(n)
+
+
+
 // QNO5. Write a js program to read and print elements of array.
 
 // let arrPrint = [1, 2, 3, 4, 'ali'];
@@ -80,3 +109,6 @@
 //         console.log(arrNeg[i]);
 //     }
 // }
+
+
+

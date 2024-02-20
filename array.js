@@ -81,7 +81,7 @@
 // })
 // console.log(n)
 
-// QNO6 use a reduce method to calculate the factorial of give  number from an array of first 10 natural numbers?
+// QNO7 use a reduce method to calculate the factorial of give  number from an array of first 10 natural numbers?
 
 // let arr=[1,2,3,4,5,6]
  
@@ -92,7 +92,7 @@
 
 
 
-// QNO5. Write a js program to read and print elements of array.
+// QNO8. Write a js program to read and print elements of array.
 
 // let arrPrint = [1, 2, 3, 4, 'ali'];
 // for (let key in arrPrint) {
@@ -100,7 +100,7 @@
 // }
 // console.log(arrPrint)
 
-// QNO6. Write a js program to print all negative elements in an array.
+// QNO9. Write a js program to print all negative elements in an array.
 
 // let arrNeg = [1, 2, -5, 6, -8, -3];
 // console.log(`Negative elements in array are:`);
@@ -110,5 +110,44 @@
 //     }
 // }
 
+// Qno10. Write a js program to find sum of all array elements.
+// let arr = [23,56,89,45,34]
+// let n = arr.reduce((prev, curr)=>{
+//     return prev + curr
+// })
+// console.log(n)
 
+// QNO11. Write a js program to find maximum and minimum element in an array?
 
+// Maximum
+// let arr =[34,45,67,56,89,90]
+// let n = arr.reduce((prev , curr)=>{
+//     return prev > curr ? prev : curr
+// })
+// console.log(n)
+// Minimum
+// let newarr =[34,45,67,56,89,90]
+// let z = newarr.reduce((prev , curr)=>{
+//     return prev < curr ? prev : curr
+// })
+// console.log(z)
+
+// 6. Write a js program to count total number of even and odd elements in an array.
+// let arr=[2,46,78,35,57,89]
+
+// let n = arr.filter((x)=>{
+//     return x%2!=0
+// })
+// console.log(n)
+// let z = arr.filter((x)=>{
+//     return x%2==0
+// })
+// console.log(z)
+
+// 7. Write a js program to count total number of negative elements in an array.
+// let arr = [23,-56,-7,67,89]
+ 
+// let n = arr.filter((x)=>{
+//     return x<0
+// })
+// console.log(n)
